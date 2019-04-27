@@ -17,7 +17,13 @@
 ### Run Geth RPC Client in light mode:
 
 Run `Geth RPC Client` in light mode, wallet unlocked:
-`geth --rpc --syncmode light --unlock 0x80cEFF517c1Ea52CF7C5a6Ff80caA961eF2Fa930`
+```shell
+geth --rpc --syncmode light --unlock [account public key]
+```
+
+### Migrate to Mainnet with Truffle
+
+`truffle migrate --network live`
 
 ## Dev Setup
 
