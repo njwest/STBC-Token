@@ -1,18 +1,4 @@
-Verified Contract: https://etherscan.io/address/0x7Cc3BFCe25B865676210B33436Cd7726b855B4C4#code
-
-## STBC Compilation
-```shell
-Compiling your contracts...
-===========================
-> Compiling ./contracts/STBCToken-Flat.sol
-> Artifacts written to /Users/nick/Desktop/mainnet-deploy-tut/STBC/build/contracts
-> Compiled successfully using:
-   - solc: 0.5.0+commit.1d4f565a.Emscripten.clang
 ```
-
-## GETH Migration Output for STBCToken (STBC)
-
-```shell
 Compiling your contracts...
 ===========================
 > Compiling ./contracts/STBCToken-Flat.sol
@@ -31,10 +17,10 @@ Migrations dry-run (simulation)
 1_initial_migration.js
 ======================
 
-   Deploying 'Migrations'
+   Replacing 'Migrations'
    ----------------------
    > account:             0x80cEFF517c1Ea52CF7C5a6Ff80caA961eF2Fa930
-   > balance:             0.511887235
+   > balance:             0.475924055
    > gas used:            269908
    > gas price:           2 gwei
    > value sent:          0 ETH
@@ -47,10 +33,10 @@ Migrations dry-run (simulation)
 2_deploy_contracts.js
 =====================
 
-   Deploying 'STBCToken'
+   Replacing 'STBCToken'
    ---------------------
    > account:             0x80cEFF517c1Ea52CF7C5a6Ff80caA961eF2Fa930
-   > balance:             0.509094801
+   > balance:             0.473131621
    > gas used:            1369183
    > gas price:           2 gwei
    > value sent:          0 ETH
@@ -70,19 +56,19 @@ Starting migrations...
 ======================
 > Network name:    'live'
 > Network id:      1
-> Block gas limit: 0x7a121d
+> Block gas limit: 0x7a1200
 
 
 1_initial_migration.js
 ======================
 
-   Deploying 'Migrations'
+   Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0xca3e6682a47a5b7da2b1758b8c00c077172e431e4743d34d7789d8f4b606662b
-   > Blocks: 0            Seconds: 24
-   > contract address:    0xBE3488551C97eD7d7e33f6F37E4d40DC8Cf4c8F5
+   > transaction hash:    0xafbd7e2c24fa1c8e84c2773dd66ceb75a17912211cb73af1f81c406d4452158c
+   > Blocks: 0            Seconds: 4
+   > contract address:    0xdfC9D1F8F609d5b0430e2d45C808F7DBeA7C4367
    > account:             0x80cEFF517c1Ea52CF7C5a6Ff80caA961eF2Fa930
-   > balance:             0.506728891
+   > balance:             0.470765711
    > gas used:            284908
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -98,13 +84,13 @@ Starting migrations...
 2_deploy_contracts.js
 =====================
 
-   Deploying 'STBCToken'
+   Replacing 'STBCToken'
    ---------------------
-   > transaction hash:    0x436690360f937d6bf4a68ee8ee3183a25f2d992edfa568dc81e852cdf129cbfc
-   > Blocks: 1            Seconds: 4
-   > contract address:    0x7Cc3BFCe25B865676210B33436Cd7726b855B4C4
+   > transaction hash:    0x69303bfcd66dcd4f8a67e8b4b67d8a60a05398412e5448a10ec9da2cf0cafd39
+   > Blocks: 2            Seconds: 24
+   > contract address:    0xbd1B440F35d4D65a89424c29Dc31F94B751d6256
    > account:             0x80cEFF517c1Ea52CF7C5a6Ff80caA961eF2Fa930
-   > balance:             0.477004551
+   > balance:             0.441041371
    > gas used:            1444183
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -121,4 +107,6 @@ Summary
 =======
 > Total deployments:   2
 > Final cost:          0.03458182 ETH
+
+
 ```

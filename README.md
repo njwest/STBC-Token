@@ -2,7 +2,7 @@
 
 [Verified Contract](https://etherscan.io/address/0xbd1B440F35d4D65a89424c29Dc31F94B751d6256#code)
 
-Contract Address: 0x7Cc3BFCe25B865676210B33436Cd7726b855B4C4
+Contract Address: 0xbd1B440F35d4D65a89424c29Dc31F94B751d6256
 ## Migrate STBC to the Ethereum Mainnet
 
 ### Install Geth
