@@ -4,7 +4,7 @@ module.exports = {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 8545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
-     from: "0x80cEFF517c1Ea52CF7C5a6Ff80caA961eF2Fa930", // default address to use for any transaction Truffle makes during migrations
+     from: "[wallet address]", // default address to use for any transaction Truffle makes during migrations
     },
     development: {
      host: "127.0.0.1",     // Localhost (default: none)

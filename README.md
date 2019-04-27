@@ -24,23 +24,3 @@ geth --rpc --syncmode light --unlock [account public key]
 ### Migrate to Mainnet with Truffle
 
 `truffle migrate --network live`
-
-## Dev Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-# Note
-
-For a detailed explanation on how things work, check out the [webpack vue guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
